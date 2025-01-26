@@ -1,6 +1,6 @@
 <!-- Title -->
 <div align="center">
-    <h1>Protofolio Website</h1>
+    <h1>Portfolio Website</h1>
 </div>
 
 <!-- Badges -->
