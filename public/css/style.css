@@ -208,6 +208,7 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    width: 100%;
     margin: 8vh;
     margin-left: 3.6vh;
     margin-right: 3.6vh;
