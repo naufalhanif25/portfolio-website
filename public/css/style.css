@@ -53,7 +53,7 @@ body {
 
 .header-button:hover {
     transition: 240ms;
-    background-color: rgba(255, 255, 255, 12%);
+    background-color: rgba(255, 255, 255, 16%);
     box-shadow: 0vh 0vh 1.2vh rgba(255, 255, 255, 16%);
 }
 
@@ -105,7 +105,7 @@ body {
 
 .profile:hover .highlight {
     transition: 640ms ease-out;
-    opacity: 0.64;
+    opacity: 0.68;
 }
 
 .profile:not(:hover) .highlight {
@@ -229,8 +229,8 @@ body {
 
 .box:hover {
     transition: 160ms ease-out;
-    background-color: rgba(252, 199, 55, 20%);
-    box-shadow: 0vh 0.8vh 2vh rgba(252, 199, 55, 12%);
+    background-color: rgba(252, 199, 55, 24%);
+    box-shadow: 0vh 0.8vh 2vh rgba(252, 199, 55, 16%);
     margin-top: 0.8vh;
     margin-bottom: 1.6vh;
 }
@@ -314,6 +314,7 @@ body {
     backdrop-filter: blur(0.12vh);
     text-align: center;
     align-content: center;
+    opacity: 0;
 }
 
 .project-desc {
@@ -324,16 +325,18 @@ body {
 }
 
 .project-preview:hover + .project-title {
-    transition: height 320ms ease-out;
+    transition: height 320ms ease-out, opacity 320ms;
     height: 8.6vh;
+    opacity: 1;
 }
 
 .project-preview:not(:hover) + .project-title {
-    transition: height 320ms ease-out;
+    transition: height 320ms ease-out, opacity 320ms;
 }
 
 .project-title:hover {
     height: 8.6vh;
+    opacity: 1;
 }
 
 .service {
@@ -369,7 +372,7 @@ body {
 .service-box:hover {
     transition: 240ms ease-out;
     box-shadow: 0vh 1.6vh 1.6vh rgba(0, 0, 0, 8%);
-    border: 0.2vh solid rgba(0, 0, 0, 32%);
+    border: 0.2vh solid rgba(0, 0, 0, 36%);
     margin: 1.2vh;
     margin-top: 1vh;
     margin-bottom: 2.2vh;
@@ -461,7 +464,7 @@ body {
 
 .service-button:hover {
     transition: 240ms;
-    background-color: rgba(252, 199, 55, 88%);
+    background-color: rgba(252, 199, 55, 84%);
 }
 
 .service-note-ctr {
@@ -544,7 +547,7 @@ body {
 
 .footer-icon:hover {
     transition: 320ms;
-    filter: drop-shadow(0vh 0vh 0.8vh rgba(255, 255, 255, 32%)) brightness(120%);
+    filter: drop-shadow(0vh 0vh 0.8vh rgba(255, 255, 255, 36%)) brightness(128%);
 }
 
 .footer-icon:not(:hover) {
