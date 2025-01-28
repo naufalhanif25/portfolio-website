@@ -266,11 +266,11 @@ body {
     margin-top: 0;
 }
 
-.projects {
+.project {
     width: 100vw;
 }
 
-.projects-style {
+.project-style {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -309,15 +309,23 @@ body {
     font-family: Helvetica;
     font-weight: bold;
     font-size: 2.4vh;
+    margin: 0;
     color: rgba(255, 255, 255, 100%);
     backdrop-filter: blur(0.12vh);
     text-align: center;
     align-content: center;
 }
 
+.project-desc {
+    font-weight: normal;
+    font-size: 1.6vh;
+    margin: 0;
+    margin-top: 0.2vh;
+}
+
 .project-preview:hover + .project-title {
     transition: height 320ms ease-out;
-    height: 8vh;
+    height: 8.6vh;
 }
 
 .project-preview:not(:hover) + .project-title {
@@ -325,15 +333,15 @@ body {
 }
 
 .project-title:hover {
-    height: 8vh;
+    height: 8.6vh;
 }
 
-.services {
+.service {
     width: 100vw;
     margin-bottom: 3.2vh;
 }
 
-.services-style {
+.service-style {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
