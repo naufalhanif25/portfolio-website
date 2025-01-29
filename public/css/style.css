@@ -53,8 +53,8 @@ body {
 
 .header-button:hover {
     transition: 240ms;
-    background-color: rgba(255, 255, 255, 16%);
-    box-shadow: 0vh 0vh 1.2vh rgba(255, 255, 255, 16%);
+    background-color: rgba(255, 255, 255, 12%);
+    box-shadow: 0vh 0vh 1.2vh rgba(255, 255, 255, 12%);
 }
 
 .header-button:not(:hover) {
@@ -105,7 +105,7 @@ body {
 
 .profile:hover .highlight {
     transition: 640ms ease-out;
-    opacity: 0.68;
+    opacity: 0.64;
 }
 
 .profile:not(:hover) .highlight {
@@ -229,8 +229,8 @@ body {
 
 .box:hover {
     transition: 160ms ease-out;
-    background-color: rgba(252, 199, 55, 24%);
-    box-shadow: 0vh 0.8vh 2vh rgba(252, 199, 55, 16%);
+    background-color: rgba(252, 199, 55, 20%);
+    box-shadow: 0vh 0.8vh 2vh rgba(252, 199, 55, 12%);
     margin-top: 0.8vh;
     margin-bottom: 1.6vh;
 }
@@ -302,7 +302,7 @@ body {
 
 .project-title {
     position: absolute;
-    background-color: rgba(0, 0, 0, 28%);
+    background-color: rgba(0, 0, 0, 32%);
     height: 0vh;
     width: 100%;
     bottom: 0;
@@ -311,10 +311,12 @@ body {
     font-size: 2.4vh;
     margin: 0;
     color: rgba(255, 255, 255, 100%);
-    backdrop-filter: blur(0.12vh);
+    backdrop-filter: blur(0.08vh) contrast(88%);
     text-align: center;
     align-content: center;
     opacity: 0;
+    padding-top: 1.2vh;
+    padding-bottom: 1.2vh;
 }
 
 .project-desc {
@@ -322,11 +324,12 @@ body {
     font-size: 1.6vh;
     margin: 0;
     margin-top: 0.2vh;
+    margin-bottom: 0;
 }
 
 .project-preview:hover + .project-title {
     transition: height 320ms ease-out, opacity 320ms;
-    height: 8.6vh;
+    height: 20%;
     opacity: 1;
 }
 
@@ -335,7 +338,7 @@ body {
 }
 
 .project-title:hover {
-    height: 8.6vh;
+    height: 20%;
     opacity: 1;
 }
 
@@ -372,7 +375,7 @@ body {
 .service-box:hover {
     transition: 240ms ease-out;
     box-shadow: 0vh 1.6vh 1.6vh rgba(0, 0, 0, 8%);
-    border: 0.2vh solid rgba(0, 0, 0, 36%);
+    border: 0.2vh solid rgba(0, 0, 0, 32%);
     margin: 1.2vh;
     margin-top: 1vh;
     margin-bottom: 2.2vh;
@@ -464,7 +467,7 @@ body {
 
 .service-button:hover {
     transition: 240ms;
-    background-color: rgba(252, 199, 55, 84%);
+    background-color: rgba(252, 199, 55, 88%);
 }
 
 .service-note-ctr {
@@ -547,7 +550,7 @@ body {
 
 .footer-icon:hover {
     transition: 320ms;
-    filter: drop-shadow(0vh 0vh 0.8vh rgba(255, 255, 255, 36%)) brightness(128%);
+    filter: drop-shadow(0vh 0vh 0.8vh rgba(255, 255, 255, 32%)) brightness(120%);
 }
 
 .footer-icon:not(:hover) {
