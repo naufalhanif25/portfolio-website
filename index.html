@@ -11,16 +11,18 @@
     <!-- Header navigation buttons -->
     <header class="header">
         <div class="header-style">
-            <a href="#about" class="header-button">About</a>
-            <a href="#techstack" class="header-button">Tech Stack</a>
-            <a href="#project" class="header-button">Project</a>
-            <a href="#service" class="header-button">Service</a>
-            <a href="#contact" class="header-button">Contact</a>
+            <a id="about-button" class="header-button" scrollto="about">About</a>
+            <a id="ts-button" class="header-button" scrollto="techstack">Tech Stack</a>
+            <a id="project-button" class="header-button" scrollto="project">Project</a>
+            <a id="service-button" class="header-button" scrollto="service">Service</a>
+            <a id="contact-button" class="header-button" scrollto="contact">Contact</a>
         </div>
     </header>
 
+    <script src="public/js/scrollintoview.js"></script>
+
     <!-- Profile section -->
-    <div class="profile" id="about">
+    <section class="profile" id="about">
         <div class="profile-style">
             <div class="wave-animation-style">
                 <lottie-player class="wave-animation" src="public/lottie/wave.json" background="transparent" speed="0.16" loop autoplay></lottie-player>
@@ -51,10 +53,10 @@
                 <div class="skill-tag-box">3D Artist</div>
             </div>
         </div>
-    </div>
+    </section>
 
     <!-- Tech stack section -->
-    <div class="techstack" id="techstack">
+    <section class="techstack hidden-section" id="techstack">
         <h1 class="title">Tech Stack</h1>
         <div class="ts-style">
             <div class="ts-box">
@@ -137,10 +139,10 @@
             </div>
         </div>
         </div>
-    </div>
+    </section>
 
     <!-- Project section -->
-    <div class="project" id="project">
+    <section class="project hidden-section" id="project">
         <h1 class="title">Project</h1>
         <div class="project-style">
             <div class="project-box">
@@ -158,22 +160,22 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
     <!-- Service section -->
-    <div class="service" id="service">
+    <section class="service hidden-section" id="service">
         <h1 class="title">Service</h1>
         <div class="service-style">
             <div class="service-box">
                 <div class="service-text">
-                    <h1 class="service-name">Sandwich</h1>
+                    <h1 class="service-name">Lite</h1>
                     <h2 class="service-startfrom">Start from</h2>
                     <h1 class="service-price">
-                        <strong>Rp 20.000</strong>
+                        <strong>Rp 80.000</strong>
                         /
                     </h1>
                     <h2 class="service-metric">Page</h2>
-                    <h2 class="service-discount">Rp 30.000 / Page</h2>
+                    <h2 class="service-discount">Rp 125.000 / Page</h2>
                     <div class="service-desc">
                         <h2 class="desc">
                             <li>Simple user interface</li>
@@ -183,20 +185,20 @@
                         </h2>
                     </div>
                     <div class="service-button-ctr">
-                        <a href="https://bit.ly/4avLt8e" target="_blank" class="service-button">Order</a>
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdzAYBKDNisAggIu5s3Gtcz08UXXKeINg-NgJlrcWZW3Mf7Jw/viewform" target="_blank" class="service-button">Order</a>
                     </div>
                 </div>
             </div>
             <div class="service-box">
                 <div class="service-text">
-                    <h1 class="service-name">Pizza</h1>
+                    <h1 class="service-name">Standard</h1>
                     <h2 class="service-startfrom">Start from</h2>
                     <h1 class="service-price">
-                        <strong>Rp 40.000</strong>
+                        <strong>Rp 165.000</strong>
                         /
                     </h1>
                     <h2 class="service-metric">Page</h2>
-                    <h2 class="service-discount">Rp 50.000 / Page</h2>
+                    <h2 class="service-discount">Rp 215.000 / Page</h2>
                     <div class="service-desc">
                         <h2 class="desc">
                             <li>Clean and simple UI</li>
@@ -205,21 +207,21 @@
                             <li>Static application</li>
                         </h2>
                     </div>
-                </div>
-                <div class="service-button-ctr">
-                    <a href="https://bit.ly/4avLt8e" target="_blank" class="service-button">Order</a>
+                    <div class="service-button-ctr">
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdzAYBKDNisAggIu5s3Gtcz08UXXKeINg-NgJlrcWZW3Mf7Jw/viewform" target="_blank" class="service-button">Order</a>
+                    </div>
                 </div>
             </div>
             <div class="service-box">
                 <div class="service-text">
-                    <h1 class="service-name">Saffron</h1>
+                    <h1 class="service-name">Master</h1>
                     <h2 class="service-startfrom">Start from</h2>
                     <h1 class="service-price">
-                        <strong>Rp 65.000</strong>
+                        <strong>Rp 245.000</strong>
                         /
                     </h1>
                     <h2 class="service-metric">Page</h2>
-                    <h2 class="service-discount">Rp 70.000 / Page</h2>
+                    <h2 class="service-discount">Rp 280.000 / Page</h2>
                     <div class="service-desc">
                         <h2 class="desc">
                             <li>Clean and interactive UI</li>
@@ -229,20 +231,20 @@
                         </h2>
                     </div>
                     <div class="service-button-ctr">
-                        <a href="https://bit.ly/4avLt8e" target="_blank" class="service-button">Order</a>
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdzAYBKDNisAggIu5s3Gtcz08UXXKeINg-NgJlrcWZW3Mf7Jw/viewform" target="_blank" class="service-button">Order</a>
                     </div>
                 </div>
             </div>
             <div class="service-box">
                 <div class="service-text">
-                    <h1 class="service-name">Caviar</h1>
+                    <h1 class="service-name">Elite</h1>
                     <h2 class="service-startfrom">Start from</h2>
                     <h1 class="service-price">
-                        <strong>Rp 80.000</strong>
+                        <strong>Rp 360.000</strong>
                         /
                     </h1>
                     <h2 class="service-metric">Page</h2>
-                    <h2 class="service-discount">Rp 85.000 / Page</h2>
+                    <h2 class="service-discount">Rp 415.000 / Page</h2>
                     <div class="service-desc">
                         <h2 class="desc">
                             <li>Interactive and amazing UI</li>
@@ -252,7 +254,7 @@
                         </h2>
                     </div>
                     <div class="service-button-ctr">
-                        <a href="https://bit.ly/4avLt8e" target="_blank" class="service-button">Order</a>
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdzAYBKDNisAggIu5s3Gtcz08UXXKeINg-NgJlrcWZW3Mf7Jw/viewform" target="_blank" class="service-button">Order</a>
                     </div>
                 </div>
             </div>
@@ -262,7 +264,9 @@
                 Note: Service prices are the same for app or website
             </h2>
         </div>
-    </div>
+    </section>
+
+    <script src="public/js/scrolldriven.js"></script>
 
     <!-- Footer section -->
     <footer class="footer" id="contact">

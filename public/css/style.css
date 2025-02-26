@@ -16,6 +16,18 @@ body {
     font-family: Helvetica;
 }
 
+/* Hidden section */
+.hidden-section {
+    opacity: 0.32;
+    scale: 0.96;
+    transition: 640ms ease-out;
+}
+
+.hidden-section.visible {
+    opacity: 1;
+    scale: 1;
+}
+
 /* Header classes */
 .header {
     display: flex;
