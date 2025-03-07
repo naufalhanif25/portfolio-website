@@ -5,275 +5,278 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="public/css/style.css">
     <title>Naufal Hanif</title>
+    <meta name="description" content="Portfolio of Naufal Hanif, an Informatics student passionate about AI, Data Science, and Software Development.">
+    <meta name="keywords" content="Naufal Hanif, Portfolio, Web Developer, AI, Data Science, Software Development">
+    <meta name="author" content="Naufal Hanif">
     <link rel="icon" type="image/x-icon" href="public/icon.png">
 </head>
 <body>
     <!-- Header navigation buttons -->
     <header class="header">
-        <div class="header-style">
+        <nav class="header-style">
             <a id="about-button" class="header-button" scrollto="about">About</a>
             <a id="ts-button" class="header-button" scrollto="techstack">Tech Stack</a>
             <a id="project-button" class="header-button" scrollto="project">Project</a>
             <a id="service-button" class="header-button" scrollto="service">Service</a>
             <a id="contact-button" class="header-button" scrollto="contact">Contact</a>
-        </div>
+        </nav>
+        <script src="public/js/scrollintoview.js"></script>
     </header>
 
-    <script src="public/js/scrollintoview.js"></script>
-
-    <!-- Profile section -->
-    <section class="profile" id="about">
-        <div class="profile-style">
-            <div class="wave-animation-style">
-                <lottie-player class="wave-animation" src="public/lottie/wave.json" background="transparent" speed="0.16" loop autoplay></lottie-player>
-            </div>
-            <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-
-            <div class="highlight"></div>
-            <script src="public/js/highlight.js"></script>
-            
-            <h1 class="hello">Hola, I'm</h1>
-            <h1 class="name">Naufal Hanif</h1>
-            <hr class="line">
-            <h1 class="status">Undergraduate Student at Syiah Kuala University</h1>
-            <h5 class="profile-desc">
-                College student majoring in <strong class="highlight-text">Informatics</strong> from <strong class="highlight-text">Syiah Kuala University</strong>. 
-                Known programming since 2022 and has worked on several projects.
-                Interested in Artificial Intelligence, Data Science, and Software Development.
-            </h5>
-            <h5 class="motivation">
-                <i>"Codes are a puzzle, a game, just like any other game"</i>
-                <br>
-                - Alan Turing -
-            </h5>
-            <div class="skill-tag-style">
-                <div class="skill-tag-box">Front-End Developer</div>
-                <div class="skill-tag-box">Data Scientist</div>
-                <div class="skill-tag-box">UI/UX Designer</div>
-                <div class="skill-tag-box">3D Artist</div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Tech stack section -->
-    <section class="techstack hidden-section" id="techstack">
-        <h1 class="title">Tech Stack</h1>
-        <div class="ts-style">
-            <div class="ts-box">
-                <image class="lang-icon" src="public/icon/laravel.png"></image>
-                <div class="about-lang">
-                    <h1 class="lang-framework">Laravel</h1>
-                    <h2 class="lang-type">Back-End Framework</h2>
+    <main>
+        <!-- Profile section -->
+        <section class="profile" id="about">
+            <div class="profile-style">
+                <div class="wave-animation-style">
+                    <lottie-player class="wave-animation" src="public/lottie/wave.json" background="transparent" speed="0.16" loop autoplay></lottie-player>
+                </div>
+                <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    
+                <div class="highlight"></div>
+                <script src="public/js/highlight.js"></script>
+                
+                <h1 class="hello">Hola, I'm</h1>
+                <h2 class="name">Naufal Hanif</h2>
+                <hr class="line">
+                <h3 class="status">Undergraduate Student at Syiah Kuala University</h3>
+                <p class="profile-desc">
+                    College student majoring in <strong class="highlight-text">Informatics</strong> from <strong class="highlight-text">Syiah Kuala University</strong>. 
+                    Known programming since 2022 and has worked on several projects.
+                    Interested in Artificial Intelligence, Data Science, and Software Development.
+                </p>
+                <blockquote class="motivation">
+                    <i>"Codes are a puzzle, a game, just like any other game"</i>
+                    <br>
+                    - Alan Turing -
+                </blockquote>
+                <div class="skill-tag-style">
+                    <span class="skill-tag-box">Front-End Developer</span>
+                    <span class="skill-tag-box">Data Scientist</span>
+                    <span class="skill-tag-box">UI/UX Designer</span>
+                    <span class="skill-tag-box">3D Artist</span>
                 </div>
             </div>
-            <div class="ts-box">
-                <image class="lang-icon" src="public/icon/html.png"></image>
-                <div class="about-lang">
-                    <h1 class="lang-framework">HTML</h1>
-                    <h2 class="lang-type">Markup Language</h2>
-                </div>
-            </div>
-            <div class="ts-box">
-                <image class="lang-icon" src="public/icon/css.png"></image>
-                <div class="about-lang">
-                    <h1 class="lang-framework">CSS</h1>
-                    <h2 class="lang-type">Front-End Framework</h2>
-                </div>
-            </div>
-            <div class="ts-box">
-                <image class="lang-icon" src="public/icon/tailwindcss.png"></image>
-                <div class="about-lang">
-                    <h1 class="lang-framework">TailwindCSS</h1>
-                    <h2 class="lang-type">Front-End Framework</h2>
-                </div>
-            </div>
-            <div class="ts-box">
-                <image class="lang-icon" src="public/icon/php.png"></image>
-                <div class="about-lang">
-                    <h1 class="lang-framework">PHP</h1>
-                    <h2 class="lang-type">Back-End Language</h2>
-                </div>
-            </div>
-            <div class="ts-box">
-                <image class="lang-icon" src="public/icon/mysql.png"></image>
-                <div class="about-lang">
-                    <h1 class="lang-framework">MySQL</h1>
-                    <h2 class="lang-type">DBMS</h2>
-                </div>
-            </div>
-            <div class="ts-box">
-                <image class="lang-icon" src="public/icon/js.png"></image>
-                <div class="about-lang">
-                    <h1 class="lang-framework">Javascript</h1>
-                    <h2 class="lang-type">Front-End Framework</h2>
-                </div>
-            </div>
-        <div class="ts-lang-style">
-            <div class="ts-box">
-                <image class="lang-icon" src="public/icon/c.png"></image>
-                <div class="about-lang">
-                    <h1 class="lang-framework">C</h1>
-                    <h2 class="lang-type">Programming Language</h2>
-                </div>
-            </div>
-            <div class="ts-box">
-                <image class="lang-icon" src="public/icon/cpp.png"></image>
-                <div class="about-lang">
-                    <h1 class="lang-framework">C++</h1>
-                    <h2 class="lang-type">Programming Language</h2>
-                </div>
-            </div>
-            <div class="ts-box">
-                <image class="lang-icon" src="public/icon/python.png"></image>
-                <div class="about-lang">
-                    <h1 class="lang-framework">Python</h1>
-                    <h2 class="lang-type">Programming Language</h2>
-                </div>
-            </div>
-            <div class="ts-box">
-                <image class="lang-icon" src="public/icon/java.png"></image>
-                <div class="about-lang">
-                    <h1 class="lang-framework">Java</h1>
-                    <h2 class="lang-type">Programming Language</h2>
-                </div>
-            </div>
-        </div>
-        </div>
-    </section>
-
-    <!-- Project section -->
-    <section class="project hidden-section" id="project">
-        <h1 class="title">Project</h1>
-        <div class="project-style">
-            <div class="project-box">
-                <image class="project-preview" src="public/project/mubes.png"></image>
-                <div class="project-title">
-                    MUBES HMIF 2024
-                    <h2 class="project-desc">HMIF 2024 Grand Conference website</h2>
-                </div>
-            </div>
-            <div class="project-box">
-                <image class="project-preview" src="public/project/tkid.png"></image>
-                <div class="project-title">
-                    TransKoetaradja.id
-                    <h2 class="project-desc">Trans Koetaradja city bus website prototype</h2>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Service section -->
-    <section class="service hidden-section" id="service">
-        <h1 class="title">Service</h1>
-        <div class="service-style">
-            <div class="service-box">
-                <div class="service-text">
-                    <h1 class="service-name">Lite</h1>
-                    <h2 class="service-startfrom">Start from</h2>
-                    <h1 class="service-price">
-                        <strong>Rp 80.000</strong>
-                        /
-                    </h1>
-                    <h2 class="service-metric">Page</h2>
-                    <h2 class="service-discount">Rp 125.000 / Page</h2>
-                    <div class="service-desc">
-                        <h2 class="desc">
-                            <li>Simple user interface</li>
-                            <li>Prioritize functionality</li>
-                            <li>Limited features</li>
-                            <li>Static application</li>
-                        </h2>
+        </section>
+    
+        <!-- Tech stack section -->
+        <section class="techstack hidden-section" id="techstack">
+            <h2 class="title">Tech Stack</h2>
+            <div class="ts-style">
+                <div class="ts-box">
+                    <img src="public/icon/laravel.png" alt="Laravel" class="lang-icon"></img>
+                    <div class="about-lang">
+                        <h3 class="lang-framework">Laravel</h3>
+                        <p class="lang-type">Back-End Framework</p>
                     </div>
-                    <div class="service-button-ctr">
-                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdzAYBKDNisAggIu5s3Gtcz08UXXKeINg-NgJlrcWZW3Mf7Jw/viewform" target="_blank" class="service-button">Order</a>
+                </div>
+                <div class="ts-box">
+                    <img src="public/icon/html.png" alt="HTML" class="lang-icon"></img>
+                    <div class="about-lang">
+                        <h3 class="lang-framework">HTML</h3>
+                        <p class="lang-type">Markup Language</p>
+                    </div>
+                </div>
+                <div class="ts-box">
+                    <img src="public/icon/css.png" alt="CSS" class="lang-icon"></img>
+                    <div class="about-lang">
+                        <h3 class="lang-framework">CSS</h3>
+                        <p class="lang-type">Front-End Framework</p>
+                    </div>
+                </div>
+                <div class="ts-box">
+                    <img src="public/icon/tailwindcss.png" alt="TailwindCSS" class="lang-icon"></img>
+                    <div class="about-lang">
+                        <h3 class="lang-framework">TailwindCSS</h3>
+                        <p class="lang-type">Front-End Framework</p>
+                    </div>
+                </div>
+                <div class="ts-box">
+                    <img src="public/icon/php.png" alt="PHP" class="lang-icon"></img>
+                    <div class="about-lang">
+                        <h3 class="lang-framework">PHP</h3>
+                        <p class="lang-type">Back-End Language</p>
+                    </div>
+                </div>
+                <div class="ts-box">
+                    <img src="public/icon/mysql.png" alt="MySQL" class="lang-icon"></img>
+                    <div class="about-lang">
+                        <h3 class="lang-framework">MySQL</h3>
+                        <p class="lang-type">DBMS</p>
+                    </div>
+                </div>
+                <div class="ts-box">
+                    <img src="public/icon/js.png" alt="JavaScript" class="lang-icon"></img>
+                    <div class="about-lang">
+                        <h3 class="lang-framework">JavaScript</h>
+                        <p class="lang-type">Front-End Language</p>
+                    </div>
+                </div>
+            <div class="ts-lang-style">
+                <div class="ts-box">
+                    <img src="public/icon/c.png" alt="C" class="lang-icon"></img>
+                    <div class="about-lang">
+                        <h3 class="lang-framework">C</h3>
+                        <p class="lang-type">Programming Language</p>
+                    </div>
+                </div>
+                <div class="ts-box">
+                    <img src="public/icon/cpp.png" alt="C++" class="lang-icon"></img>
+                    <div class="about-lang">
+                        <h3 class="lang-framework">C++</h3>
+                        <p class="lang-type">Programming Language</p>
+                    </div>
+                </div>
+                <div class="ts-box">
+                    <img src="public/icon/python.png" alt="Python" class="lang-icon"></img>
+                    <div class="about-lang">
+                        <h3 class="lang-framework">Python</h3>
+                        <p class="lang-type">Programming Language</p>
+                    </div>
+                </div>
+                <div class="ts-box">
+                    <img src="public/icon/java.png" alt="Java" class="lang-icon"></img>
+                    <div class="about-lang">
+                        <h3 class="lang-framework">Java</h3>
+                        <p class="lang-type">Programming Language</p>
                     </div>
                 </div>
             </div>
-            <div class="service-box">
-                <div class="service-text">
-                    <h1 class="service-name">Standard</h1>
-                    <h2 class="service-startfrom">Start from</h2>
-                    <h1 class="service-price">
-                        <strong>Rp 165.000</strong>
-                        /
-                    </h1>
-                    <h2 class="service-metric">Page</h2>
-                    <h2 class="service-discount">Rp 215.000 / Page</h2>
-                    <div class="service-desc">
-                        <h2 class="desc">
-                            <li>Clean and simple UI</li>
-                            <li>Responsive and functional</li>
-                            <li>Limited features</li>
-                            <li>Static application</li>
-                        </h2>
+            </div>
+        </section>
+    
+        <!-- Project section -->
+        <section class="project hidden-section" id="project">
+            <h2 class="title">Project</h2>
+            <div class="project-style">
+                <div class="project-box">
+                    <img src="public/project/mubes.png" alt="MUBES HMIF 2024" class="project-preview"></img>
+                    <div class="project-desc-ctr">
+                        <h3 class="project-title">MUBES HMIF 2024</h3>
+                        <p class="project-desc">HMIF 2024 Grand Conference website</p>
                     </div>
-                    <div class="service-button-ctr">
-                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdzAYBKDNisAggIu5s3Gtcz08UXXKeINg-NgJlrcWZW3Mf7Jw/viewform" target="_blank" class="service-button">Order</a>
+                </div>
+                <div class="project-box">
+                    <img src="public/project/tkid.png" alt="TransKoetaradja.id" class="project-preview"></img>
+                    <div class="project-desc-ctr">
+                        <h3 class="project-title">TransKoetaradja.id</h3>
+                        <p class="project-desc">Trans Koetaradja city bus website prototype</p>
                     </div>
                 </div>
             </div>
-            <div class="service-box">
-                <div class="service-text">
-                    <h1 class="service-name">Master</h1>
-                    <h2 class="service-startfrom">Start from</h2>
-                    <h1 class="service-price">
-                        <strong>Rp 245.000</strong>
-                        /
-                    </h1>
-                    <h2 class="service-metric">Page</h2>
-                    <h2 class="service-discount">Rp 280.000 / Page</h2>
-                    <div class="service-desc">
-                        <h2 class="desc">
-                            <li>Clean and interactive UI</li>
-                            <li>Responsive and functional</li>
-                            <li>Limited features</li>
-                            <li>Dynamic application</li>
-                        </h2>
+        </section>
+    
+        <!-- Service section -->
+        <section class="service hidden-section" id="service">
+            <h2 class="title">Service</h2>
+            <div class="service-style">
+                <div class="service-box">
+                    <div class="service-text">
+                        <h3 class="service-name">Lite</h3>
+                        <h4 class="service-startfrom">Start from</h4>
+                        <p class="service-price">
+                            <strong>Rp 80.000</strong>
+                            /
+                        </p>
+                        <p class="service-metric">Page</p>
+                        <p class="service-discount">Rp 125.000 / Page</p>
+                        <div class="service-desc">
+                            <ul class="desc">
+                                <li>Simple user interface</li>
+                                <li>Prioritize functionality</li>
+                                <li>Limited features</li>
+                                <li>Static application</li>
+                            </ul>
+                        </div>
+                        <div class="service-button-ctr">
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdzAYBKDNisAggIu5s3Gtcz08UXXKeINg-NgJlrcWZW3Mf7Jw/viewform" target="_blank" class="service-button">Order</a>
+                        </div>
                     </div>
-                    <div class="service-button-ctr">
-                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdzAYBKDNisAggIu5s3Gtcz08UXXKeINg-NgJlrcWZW3Mf7Jw/viewform" target="_blank" class="service-button">Order</a>
+                </div>
+                <div class="service-box">
+                    <div class="service-text">
+                        <h3 class="service-name">Standard</h3>
+                        <h4 class="service-startfrom">Start from</h4>
+                        <p class="service-price">
+                            <strong>Rp 165.000</strong>
+                            /
+                        </p>
+                        <p class="service-metric">Page</p>
+                        <p class="service-discount">Rp 215.000 / Page</p>
+                        <div class="service-desc">
+                            <ul class="desc">
+                                <li>Clean and simple UI</li>
+                                <li>Responsive and functional</li>
+                                <li>Limited features</li>
+                                <li>Static application</li>
+                            </ul>
+                        </div>
+                        <div class="service-button-ctr">
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdzAYBKDNisAggIu5s3Gtcz08UXXKeINg-NgJlrcWZW3Mf7Jw/viewform" target="_blank" class="service-button">Order</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-box">
+                    <div class="service-text">
+                        <h3 class="service-name">Master</h3>
+                        <h4 class="service-startfrom">Start from</h4>
+                        <p class="service-price">
+                            <strong>Rp 245.000</strong>
+                            /
+                        </p>
+                        <p class="service-metric">Page</p>
+                        <p class="service-discount">Rp 280.000 / Page</p>
+                        <div class="service-desc">
+                            <ul class="desc">
+                                <li>Clean and interactive UI</li>
+                                <li>Responsive and functional</li>
+                                <li>Limited features</li>
+                                <li>Dynamic application</li>
+                            </ul>
+                        </div>
+                        <div class="service-button-ctr">
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdzAYBKDNisAggIu5s3Gtcz08UXXKeINg-NgJlrcWZW3Mf7Jw/viewform" target="_blank" class="service-button">Order</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-box">
+                    <div class="service-text">
+                        <h3 class="service-name">Elite</h3>
+                        <h4 class="service-startfrom">Start from</h4>
+                        <p class="service-price">
+                            <strong>Rp 360.000</strong>
+                            /
+                        </p>
+                        <p class="service-metric">Page</p>
+                        <p class="service-discount">Rp 415.000 / Page</p>
+                        <div class="service-desc">
+                            <ul class="desc">
+                                <li>Interactive and amazing UI</li>
+                                <li>Responsive and functional</li>
+                                <li>Lots of features</li>
+                                <li>Dynamic application</li>
+                            </ul>
+                        </div>
+                        <div class="service-button-ctr">
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdzAYBKDNisAggIu5s3Gtcz08UXXKeINg-NgJlrcWZW3Mf7Jw/viewform" target="_blank" class="service-button">Order</a>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="service-box">
-                <div class="service-text">
-                    <h1 class="service-name">Elite</h1>
-                    <h2 class="service-startfrom">Start from</h2>
-                    <h1 class="service-price">
-                        <strong>Rp 360.000</strong>
-                        /
-                    </h1>
-                    <h2 class="service-metric">Page</h2>
-                    <h2 class="service-discount">Rp 415.000 / Page</h2>
-                    <div class="service-desc">
-                        <h2 class="desc">
-                            <li>Interactive and amazing UI</li>
-                            <li>Responsive and functional</li>
-                            <li>Lots of features</li>
-                            <li>Dynamic application</li>
-                        </h2>
-                    </div>
-                    <div class="service-button-ctr">
-                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdzAYBKDNisAggIu5s3Gtcz08UXXKeINg-NgJlrcWZW3Mf7Jw/viewform" target="_blank" class="service-button">Order</a>
-                    </div>
-                </div>
+            <div class="service-note-ctr">
+                <p class="service-note">
+                    Note: Service prices are the same for app or website
+                </p>
             </div>
-        </div>
-        <div class="service-note-ctr">
-            <h2 class="service-note">
-                Note: Service prices are the same for app or website
-            </h2>
-        </div>
-    </section>
-
-    <script src="public/js/scrolldriven.js"></script>
+        </section>
+        <script src="public/js/scrolldriven.js"></script>
+    </main>
 
     <!-- Footer section -->
     <footer class="footer" id="contact">
         <div class="footer-style">
-            <h1 class="footer-name">Naufal Hanif</h1>
+            <h2 class="footer-name">Naufal Hanif</h2>
             <div class="footer-pipe"></div>
-            <h1 class="footer-copyright">Naufal Hanif © ALL RIGHTS RESERVED</h1>
+            <p class="footer-copyright">Naufal Hanif © ALL RIGHTS RESERVED</p>
         </div>
         <div class="footer-contact">
             <a href="mailto:minku.developer23@gmail.com" target="_blank" class="contact-button">

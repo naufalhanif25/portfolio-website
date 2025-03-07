@@ -427,7 +427,10 @@ body {
     height: 100%;
 }
 
-.project-title {
+.project-desc-ctr {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
     position: absolute;
     background-color: rgba(0, 0, 0, 28%);
     height: 0vh;
@@ -445,6 +448,19 @@ body {
     padding-bottom: 1.2vh;
 }
 
+.project-desc-ctr:hover {
+    height: 20%;
+    opacity: 1;
+}
+
+.project-title {
+    font-weight: bold;
+    font-size: 2.4vh;
+    margin: 0;
+    margin-top: 0.4vh;
+    margin-bottom: 0.2vh;
+}
+
 .project-desc {
     font-weight: normal;
     font-size: 1.6vh;
@@ -453,21 +469,16 @@ body {
     margin-bottom: 0;
 }
 
-.project-preview:hover + .project-title {
+.project-preview:hover + .project-desc-ctr {
     transition: height 320ms ease-out, 
                 opacity 320ms;
     height: 20%;
     opacity: 1;
 }
 
-.project-preview:not(:hover) + .project-title {
+.project-preview:not(:hover) + .project-desc-ctr {
     transition: height 320ms ease-out, 
                 opacity 320ms;
-}
-
-.project-title:hover {
-    height: 20%;
-    opacity: 1;
 }
 
 /* Service section classes */
@@ -570,6 +581,7 @@ body {
     margin-bottom: 6.4vh;
     margin-left: 1.2vh;
     margin-right: 1.2vh;
+    padding: 0;
 }
 
 .service-button-ctr {
